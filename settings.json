@@ -1,0 +1,71 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "auto-close-tag.fullMode": true,
+    "gitlens.advanced.messages": {
+        "suppressFileNotUnderSourceControlWarning": true
+    },
+    "editor.fontFamily": "Fira code",//,Consolas", //"'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.rulers": [80,120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.tabSize": 4,
+    "editor.fontSize": 15,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.rendererType": "dom",
+    "editor.suggestSelection": "first",
+    "emmet.includeLanguages": {
+        "javascript" : "javascriptreact"
+    },
+    "emmet.syntaxProfiles": { 
+        "javascript" : "jsx"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.parameterHints.enabled" : false,
+    "breadcrumbs.enabled": true,
+    "javascript.suggest.autoImports": false,
+
+    "sync.gist": "471ebd6daa386ddfd7123a9bbc31d3d1",
+    "sync.syncExtensions": false,
+    "sync.autoDownload": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    "files.eol": "\n",
+
+    "shellLauncher.shells.windows": [
+        {
+            "Shell": "C:\\Windows\\<sysnative>\\cmd.exe",
+            "label": "cmd"
+        },
+        {
+            "Shell": "C:\\Windows\\<sysnative>\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "label": "PowerShell"
+        },
+        {
+            "Shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "label": "Git bash"
+        },
+        {
+            "Shell": "C:\\Windows\\<sysnative>\\bash.exe",
+            "label": "WSL Bash"
+        }
+    ],
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
